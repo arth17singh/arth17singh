@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 226" width="880" height="226" role="img" aria-labelledby="t d">
+<title id="t">Journey, 2018 to 2026</title>
+<desc id="d">2018 to 2022: B.Tech in Computer Science Engineering, Delhi Technological University. 2021: founded MicroNutrition, a student startup. A first-author IEEE paper, 2022. 2022 to 2023: MemoryWizard test-prep platform. 2024 to 2025: M.S. in Computer Science, Columbia University. 2026: Software Development Engineer at Imperial Platforms from March; Cogmoz, July to September; ProofLab, Top-5 Finalist, October; SPECTRUM, Finalist, November; CORTEX, November.</desc>
+<style>.jh{font:600 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;}.jl{font:400 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;}.ja{font:400 11.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;font-variant-numeric:tabular-nums;}</style>
+<text x="8" y="16" class="jh">2018 to 2025, by year</text>
+<text x="560" y="16" class="jh">2026, by month</text>
+<path d="M42.6,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="42.1" y="222" class="ja" text-anchor="middle">2019</text>
+<path d="M110.9,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="110.4" y="222" class="ja" text-anchor="middle">2020</text>
+<path d="M179.2,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="178.7" y="222" class="ja" text-anchor="middle">2021</text>
+<path d="M247.4,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="246.9" y="222" class="ja" text-anchor="middle">2022</text>
+<path d="M315.7,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="315.2" y="222" class="ja" text-anchor="middle">2023</text>
+<path d="M384.0,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="383.5" y="222" class="ja" text-anchor="middle">2024</text>
+<path d="M452.2,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="451.7" y="222" class="ja" text-anchor="middle">2025</text>
+<path d="M560.5,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="560" y="222" class="ja" text-anchor="middle">Jan</text>
+<path d="M612.5,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="612" y="222" class="ja" text-anchor="middle">Mar</text>
+<path d="M664.5,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="664" y="222" class="ja" text-anchor="middle">May</text>
+<path d="M716.5,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="716" y="222" class="ja" text-anchor="middle">Jul</text>
+<path d="M768.5,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="768" y="222" class="ja" text-anchor="middle">Sep</text>
+<path d="M820.5,30 V206" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="820" y="222" class="ja" text-anchor="middle">Nov</text>
+<path d="M8,206.5 H520 M560,206.5 H872" stroke="#9198a1" stroke-opacity=".6"/>
+<rect x="13.5" y="51" width="267.6" height="7" rx="3.5" fill="#9198a1" fill-opacity=".55"/>
+<text x="13.5" y="44" class="jl">B.Tech in Computer Science Engineering, Delhi Technological University</text>
+<rect x="190.3" y="85" width="28.0" height="7" rx="3.5" fill="#9198a1" fill-opacity=".55"/>
+<text x="190.3" y="78" class="jl">Founded MicroNutrition, a student startup</text>
+<path d="M309.7,117.0 l5.5,5.5 l-5.5,5.5 l-5.5,-5.5 Z" fill="#f0f6fc"/>
+<text x="319.7" y="112" class="jl">First-author IEEE paper</text>
+<rect x="303.6" y="153" width="53.9" height="7" rx="3.5" fill="#9198a1" fill-opacity=".55"/>
+<text x="303.6" y="146" class="jl">MemoryWizard test-prep platform</text>
+<rect x="423.1" y="187" width="94.2" height="7" rx="3.5" fill="#9198a1" fill-opacity=".55"/>
+<text x="517.3" y="180" class="jl" text-anchor="end">M.S. in Computer Science, Columbia University</text>
+<rect x="612" y="51" width="217.5" height="7" rx="3.5" fill="#9198a1" fill-opacity=".55"/><path d="M833.5,49.5 l6,5 l-6,5" fill="none" stroke="#9198a1" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="872" y="44" class="jl" text-anchor="end">SDE at Imperial Platforms, Mar 2026 to now</text>
+<rect x="725.2" y="85" width="45.4" height="7" rx="3.5" fill="#c98500"/>
+<text x="770.6" y="78" class="jl" text-anchor="end">Cogmoz</text>
+<circle cx="798.2" cy="122.5" r="5" fill="#008300"/>
+<text x="803.2" y="112" class="jl" text-anchor="end">ProofLab, Top-5 Finalist</text>
+<circle cx="820.9" cy="156.5" r="5" fill="#d55181"/>
+<text x="825.9" y="146" class="jl" text-anchor="end">SPECTRUM, Finalist</text>
+<rect x="820" y="187" width="8.7" height="7" rx="3.5" fill="#3987e5"/>
+<text x="828.7" y="180" class="jl" text-anchor="end">CORTEX</text>
+</svg>

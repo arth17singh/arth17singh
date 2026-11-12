@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 424" width="880" height="424" role="img" aria-labelledby="t d">
+<title id="t">CORTEX against its baselines: wins, ties and a loss</title>
+<desc id="d">Six comparisons, each a difference in score with its 95% confidence interval. Compaction repair vs a forced grep (share of dropped details restored, dev set): +0.43, +0.26 to +0.59. Always-on memory vs no memory (21 dev tasks, 2 runs, candidate profile with push on): +0.31, +0.16 to +0.46. Always-on memory vs an on-demand grep agent (the same 21 dev tasks; not significant): +0.12, 0.00 to +0.24. Chat archive vs notes only, both read by a grepping agent (90 questions, 2 runs per arm): +0.097, +0.044 to +0.153. CORTEX search vs an agent grepping the same archive (300 sealed held-out LongMemEval questions, one run): −0.005, −0.043 to +0.035. CORTEX v8 search pack vs grep on notes plus archive (the same 90-question run as the archive row): −0.106, −0.169 to −0.047.</desc>
+<style>.pt{font:600 15.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;}.ps{font:400 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}.r1{font:400 13.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;}.r2{font:400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}.ev{font:700 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;font-variant-numeric:tabular-nums;}.ec{font:400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;font-variant-numeric:tabular-nums;}.ax{font:400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;font-variant-numeric:tabular-nums;}</style>
+<text x="8" y="24" class="pt">CORTEX against its baselines: wins, ties and a loss</text>
+<text x="8" y="45" class="ps">Difference in score, treatment minus baseline, with 95% confidence intervals.</text>
+<text x="8" y="62" class="ps">Rows use different question sets and metrics; read each against its own baseline.</text>
+<path d="M436.5,90 V352" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="436.0" y="370" class="ax" text-anchor="middle">−0.2</text>
+<path d="M580.5,90 V352" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="580.0" y="370" class="ax" text-anchor="middle">+0.2</text>
+<path d="M652.5,90 V352" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="652.0" y="370" class="ax" text-anchor="middle">+0.4</text>
+<path d="M724.5,90 V352" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="724.0" y="370" class="ax" text-anchor="middle">+0.6</text>
+<path d="M508.5,90 V352" stroke="#9198a1" stroke-opacity=".75"/>
+<text x="508" y="370" class="ax" text-anchor="middle">0</text>
+<text x="498" y="82" class="ax" text-anchor="end">baseline better</text>
+<text x="518" y="82" class="ax">treatment better</text>
+<text x="8" y="114.0" class="r1">Compaction repair vs a forced grep</text>
+<text x="8" y="131.0" class="r2">share of dropped details restored, dev set</text>
+<path d="M601.6,117.0 H720.4" stroke="#3987e5" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="662.8" cy="117.0" r="5.5" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<text x="748" y="114.0" class="ev">+0.43</text>
+<text x="748" y="131.0" class="ec">+0.26 to +0.59</text>
+<path d="M4,138.5 H876" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="8" y="156.0" class="r1">Always-on memory vs no memory</text>
+<text x="8" y="173.0" class="r2">21 dev tasks, 2 runs, candidate profile with push on</text>
+<path d="M565.6,159.0 H673.6" stroke="#3987e5" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="619.6" cy="159.0" r="5.5" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<text x="748" y="156.0" class="ev">+0.31</text>
+<text x="748" y="173.0" class="ec">+0.16 to +0.46</text>
+<path d="M4,180.5 H876" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="8" y="198.0" class="r1">Always-on memory vs an on-demand grep agent</text>
+<text x="8" y="215.0" class="r2">the same 21 dev tasks; not significant</text>
+<path d="M508.0,201.0 H594.4" stroke="#898781" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="551.2" cy="201.0" r="5.5" fill="#898781" stroke="#0d1117" stroke-width="2"/>
+<text x="748" y="198.0" class="ev">+0.12</text>
+<text x="748" y="215.0" class="ec">0.00 to +0.24</text>
+<path d="M4,222.5 H876" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="8" y="240.0" class="r1">Chat archive vs notes only, both read by a grepping agent</text>
+<text x="8" y="257.0" class="r2">90 questions, 2 runs per arm</text>
+<path d="M523.8,243.0 H563.1" stroke="#3987e5" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="542.9" cy="243.0" r="5.5" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<text x="748" y="240.0" class="ev">+0.097</text>
+<text x="748" y="257.0" class="ec">+0.044 to +0.153</text>
+<path d="M4,264.5 H876" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="8" y="282.0" class="r1">CORTEX search vs an agent grepping the same archive</text>
+<text x="8" y="299.0" class="r2">300 sealed held-out LongMemEval questions, one run</text>
+<path d="M492.5,285.0 H520.6" stroke="#898781" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="506.2" cy="285.0" r="5.5" fill="#898781" stroke="#0d1117" stroke-width="2"/>
+<text x="748" y="282.0" class="ev">−0.005</text>
+<text x="748" y="299.0" class="ec">−0.043 to +0.035</text>
+<path d="M4,306.5 H876" stroke="#f0f6fc" stroke-opacity="0.10"/>
+<text x="8" y="324.0" class="r1">CORTEX v8 search pack vs grep on notes plus archive</text>
+<text x="8" y="341.0" class="r2">the same 90-question run as the archive row</text>
+<path d="M447.2,327.0 H491.1" stroke="#e66767" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="469.8" cy="327.0" r="5.5" fill="#e66767" stroke="#0d1117" stroke-width="2"/>
+<text x="748" y="324.0" class="ev">−0.106</text>
+<text x="748" y="341.0" class="ec">−0.169 to −0.047</text>
+<circle cx="13" cy="398" r="5" fill="#3987e5"/>
+<text x="24" y="402" class="ax">better than its baseline</text>
+<circle cx="188" cy="398" r="5" fill="#898781"/>
+<text x="199" y="402" class="ax">no clear difference</text>
+<circle cx="338" cy="398" r="5" fill="#e66767"/>
+<text x="349" y="402" class="ax">worse than its baseline</text>
+</svg>

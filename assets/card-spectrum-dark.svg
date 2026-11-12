@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 352" width="432" height="352" role="img" aria-labelledby="t d">
+<title id="t">SPECTRUM</title>
+<desc id="d">Team project · Finalist. Governed multi-agent AI for 5G operations. Finalist, 30+ teams / 100+ participants, AWS × FYUZ 2026. I designed the architecture and built the operator console and its signed, hash-chained audit ledger; my teammate and I pair-built the agent and tool layers. 27/27 forbidden tool calls refused (team, in simulation); 14/14 applied only after approval (team, in simulation); 200/245 of my console's files unchanged on final main. Stack: Bedrock, MCP, Cedar, Lambda, FastAPI, React.</desc>
+<style>.ck{font:600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}.ct{font:700 26px Georgia,'Times New Roman',Times,serif;fill:#f0f6fc;}.cs{font:600 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;}.cd{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}.mv{font:700 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;}.ml{font:400 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}.sp{font:400 11.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}</style>
+<rect x=".5" y=".5" width="431" height="345" rx="10" fill="#f0f6fc" fill-opacity="0.035" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<g transform="translate(334,24)"><path d="M20,1 L31.3,7.5 L31.3,20.5 L20,27 L8.7,20.5 L8.7,7.5 Z" fill="#9198a1" fill-opacity=".1" stroke="#9198a1" stroke-opacity=".7" stroke-width="1.5" stroke-linejoin="round"/><path d="M44.5,1 L55.8,7.5 L55.8,20.5 L44.5,27 L33.2,20.5 L33.2,7.5 Z" fill="#d55181" stroke="#d55181" stroke-width="1.5" stroke-linejoin="round"/><path d="M32.2,22.5 L43.5,29.0 L43.5,42.0 L32.2,48.5 L20.9,42.0 L20.9,29.0 Z" fill="#9198a1" fill-opacity=".1" stroke="#9198a1" stroke-opacity=".7" stroke-width="1.5" stroke-linejoin="round"/><path d="M56.7,22.5 L68.0,29.0 L68.0,42.0 L56.7,48.5 L45.4,42.0 L45.4,29.0 Z" fill="#9198a1" fill-opacity=".1" stroke="#9198a1" stroke-opacity=".7" stroke-width="1.5" stroke-linejoin="round"/></g>
+<rect x="22" y="25" width="9" height="9" rx="2.5" fill="#d55181"/>
+<text x="37" y="34" class="ck">Team project · Finalist</text>
+<text x="21" y="72" class="ct">SPECTRUM</text>
+<text x="22" y="96" class="cs">Governed multi-agent AI for 5G operations</text>
+<text x="22" y="123" class="cd">Finalist, 30+ teams / 100+ participants, AWS × FYUZ</text>
+<text x="22" y="141" class="cd">2026. I designed the architecture and built the operator</text>
+<text x="22" y="159" class="cd">console and its signed, hash-chained audit ledger; my</text>
+<text x="22" y="177" class="cd">teammate and I pair-built the agent and tool layers.</text>
+<path d="M22,194.5 H410" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<rect x="22" y="208" width="66" height="21" rx="10.5" fill="#d55181" fill-opacity="0.24" stroke="#d55181" stroke-opacity=".55"/>
+<text x="55.0" y="223" class="mv" text-anchor="middle">27/27</text>
+<text x="98" y="223" class="ml">forbidden tool calls refused (team, in simulation)</text>
+<rect x="22" y="235" width="66" height="21" rx="10.5" fill="#d55181" fill-opacity="0.24" stroke="#d55181" stroke-opacity=".55"/>
+<text x="55.0" y="250" class="mv" text-anchor="middle">14/14</text>
+<text x="98" y="250" class="ml">applied only after approval (team, in simulation)</text>
+<rect x="22" y="262" width="66" height="21" rx="10.5" fill="#d55181" fill-opacity="0.24" stroke="#d55181" stroke-opacity=".55"/>
+<text x="55.0" y="277" class="mv" text-anchor="middle">200/245</text>
+<text x="98" y="277" class="ml">of my console's files unchanged on final main</text>
+<path d="M22,293.5 H410" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<rect x="22.5" y="305.5" width="62" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="53.5" y="320" class="sp" text-anchor="middle">Bedrock</text>
+<rect x="90.5" y="305.5" width="43" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="112.0" y="320" class="sp" text-anchor="middle">MCP</text>
+<rect x="139.5" y="305.5" width="50" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="164.5" y="320" class="sp" text-anchor="middle">Cedar</text>
+<rect x="195.5" y="305.5" width="61" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="226.0" y="320" class="sp" text-anchor="middle">Lambda</text>
+<rect x="262.5" y="305.5" width="61" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="293.0" y="320" class="sp" text-anchor="middle">FastAPI</text>
+<rect x="329.5" y="305.5" width="48" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="353.5" y="320" class="sp" text-anchor="middle">React</text>
+</svg>

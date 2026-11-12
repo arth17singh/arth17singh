@@ -1,0 +1,6 @@
+# Local planning and tooling: not part of the public profile.
+PUBLISH_PLAN.md
+REVISION_NOTES.md
+tools/
+_preview.html
+.DS_Store

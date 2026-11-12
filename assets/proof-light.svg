@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 265" width="880" height="265" role="img" aria-labelledby="t d">
+<title id="t">Proof strip: six figures</title>
+<desc id="d">SPECTRUM, team project: Finalist, 30+ teams / 100+ participants, AWS × FYUZ Breaking Barriers 2026. ProofLab, team project: Top 5, Finalist, TM Forum Trustworthy AI &amp; Data Hackathon 2026. CORTEX: +9.7 pts, held-out answer accuracy, credited to the chat archive read by a grepping agent (95% CI +4.4 to +15.3). CORTEX: 300, sealed held-out questions, one run: CORTEX's search tied an agent grepping the same archive. Cogmoz: 770, Vitest tests across 47 files, and 165/165 CI runs passed. Problem solving: 1,000+, problems solved in C++: 620+ Codeforces (110+ rated 1600-2100), 380+ LeetCode.</desc>
+<style>.kk{font:600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#59636e;}.val{font:700 32px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#1f2328;letter-spacing:-0.6px;}.lab{font:400 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#59636e;}</style>
+<path d="M0,.5 H880 M0,132.5 H880 M0,264.5 H880" stroke="#1f2328" stroke-opacity="0.16"/>
+<rect x="8" y="18" width="9" height="9" rx="2.5" fill="#e87ba4"/>
+<text x="23" y="27" class="kk">SPECTRUM, team project</text>
+<text x="7" y="67" class="val">Finalist</text>
+<text x="8" y="88.0" class="lab">30+ teams / 100+ participants,</text>
+<text x="8" y="104.5" class="lab">AWS × FYUZ Breaking Barriers 2026</text>
+<path d="M293.5,16 V117" stroke="#1f2328" stroke-opacity="0.16"/>
+<rect x="314" y="18" width="9" height="9" rx="2.5" fill="#008300"/>
+<text x="329" y="27" class="kk">ProofLab, team project</text>
+<text x="313" y="67" class="val">Top 5</text>
+<text x="314" y="88.0" class="lab">Finalist, TM Forum Trustworthy AI</text>
+<text x="314" y="104.5" class="lab">&amp; Data Hackathon 2026</text>
+<path d="M586.5,16 V117" stroke="#1f2328" stroke-opacity="0.16"/>
+<rect x="607" y="18" width="9" height="9" rx="2.5" fill="#2a78d6"/>
+<text x="622" y="27" class="kk">CORTEX</text>
+<text x="606" y="67" class="val">+9.7 pts</text>
+<text x="607" y="88.0" class="lab">held-out answer accuracy, credited to the</text>
+<text x="607" y="104.5" class="lab">chat archive read by a grepping agent</text>
+<text x="607" y="121.0" class="lab">(95% CI +4.4 to +15.3)</text>
+<rect x="8" y="150" width="9" height="9" rx="2.5" fill="#2a78d6"/>
+<text x="23" y="159" class="kk">CORTEX</text>
+<text x="7" y="199" class="val">300</text>
+<text x="8" y="220.0" class="lab">sealed held-out questions, one run:</text>
+<text x="8" y="236.5" class="lab">CORTEX's search tied an agent</text>
+<text x="8" y="253.0" class="lab">grepping the same archive</text>
+<path d="M293.5,148 V249" stroke="#1f2328" stroke-opacity="0.16"/>
+<rect x="314" y="150" width="9" height="9" rx="2.5" fill="#eda100"/>
+<text x="329" y="159" class="kk">Cogmoz</text>
+<text x="313" y="199" class="val">770</text>
+<text x="314" y="220.0" class="lab">Vitest tests across 47 files,</text>
+<text x="314" y="236.5" class="lab">and 165/165 CI runs passed</text>
+<path d="M586.5,148 V249" stroke="#1f2328" stroke-opacity="0.16"/>
+<rect x="607" y="150" width="9" height="9" rx="2.5" fill="#59636e" fill-opacity=".6"/>
+<text x="622" y="159" class="kk">Problem solving</text>
+<text x="606" y="199" class="val">1,000+</text>
+<text x="607" y="220.0" class="lab">problems solved in C++: 620+ Codeforces</text>
+<text x="607" y="236.5" class="lab">(110+ rated 1600-2100), 380+ LeetCode</text>
+</svg>

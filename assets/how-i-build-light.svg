@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 618" width="880" height="618" role="img" aria-labelledby="t d">
+<title id="t">How I build: six stages from spec to decision</title>
+<desc id="d">1. Spec and contracts first: Specs and plans come first; one set of pydantic models defines each record type for Python and TypeScript. (written specs and plans, pydantic v2 → JSON Schema → TypeScript types, JSON data contracts.) Evidenced in SPECTRUM and ProofLab. 2. Parallel AI coding-agent workstreams: Parallel Claude Code sessions, each owning its paths; on SPECTRUM a script fails any diff outside them. (git worktrees, per-path ownership, versioned hand-off packages, shared status file.) Evidenced in SPECTRUM and ProofLab. 3. Fail-closed merge gate: On SPECTRUM a branch merges only if every check passes; Cogmoz runs them in CI on every push to main. (type-check, lint, build, unit tests, seeded property tests, Python/JS canonical-hash parity, headless route smoke, pre-push secret scan.) Evidenced in SPECTRUM and Cogmoz. 4. Pre-registered evaluation: Pass bars are written down before the run, and the final test set stays sealed. (sealed held-out split, majority-of-3 per-fact LLM judge, judge audit, paired-bootstrap 95% CIs, nulls published.) Evidenced in CORTEX. 5. Verifiable evidence: Targets are declared before the runs and every evidence file is hashed, so a judge can re-check it. (declare-before-run records, signed, hash-chained ledger, evidence pack sealed by a SHA-256 manifest.) Evidenced in SPECTRUM and ProofLab. 6. Decisions from the data: A feature that only ties a strong baseline ships opt-in, and the findings feed the next spec. Evidenced in CORTEX.</desc>
+<style>.wt{font:600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#1f2328;}.wd{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#59636e;}.wc{font:400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#1f2328;}.wg{font:400 11.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#59636e;}.wn{font:700 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#ffffff;}.edge{fill:none;stroke:#59636e;stroke-opacity:.6;stroke-width:1.75;stroke-linecap:round}.agent{fill:#ffffff;stroke:#59636e;stroke-width:1.75;animation:work 9s ease-in-out infinite}.flow{fill:none;stroke:#1f2328;stroke-width:2.6;stroke-linecap:round;stroke-dasharray:12 100;stroke-dashoffset:12;stroke-opacity:0;animation:run 9s linear infinite}.halo{fill:none;stroke:#1f2328;stroke-opacity:0;animation:halo 9s ease-out infinite}@keyframes run{0%{stroke-dashoffset:12;stroke-opacity:0}2%{stroke-opacity:.9}76%{stroke-dashoffset:-100;stroke-opacity:.9}78%{stroke-dashoffset:-100;stroke-opacity:0}100%{stroke-dashoffset:-100;stroke-opacity:0}}@keyframes halo{0%{stroke-opacity:0;stroke-width:1}3%{stroke-opacity:.5;stroke-width:2}16%{stroke-opacity:0;stroke-width:14}100%{stroke-opacity:0;stroke-width:14}}@keyframes work{0%{fill:#ffffff}6%{fill:#59636e}22%{fill:#ffffff}100%{fill:#ffffff}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<path d="M138,105.5 H872" stroke="#1f2328" stroke-opacity="0.09"/>
+<path d="M138,209.5 H872" stroke="#1f2328" stroke-opacity="0.09"/>
+<path d="M138,341.5 H872" stroke="#1f2328" stroke-opacity="0.09"/>
+<path d="M138,445.5 H872" stroke="#1f2328" stroke-opacity="0.09"/>
+<path d="M138,549.5 H872" stroke="#1f2328" stroke-opacity="0.09"/>
+<path d="M23,572.5 H17.5 Q9.5,572.5 9.5,564.5 V32.5 Q9.5,24.5 17.5,24.5 H20" fill="none" stroke="#59636e" stroke-opacity=".75" stroke-width="1.5" stroke-dasharray="2 5" stroke-linecap="round"/>
+<path d="M15.5,20.0 l5.5,4.5 l-5.5,4.5" fill="none" stroke="#59636e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="edge" d="M34,24.5 V572.5"/>
+<path class="edge" d="M34,56.5 C34,74.5 58,66.5 58,86.5 V178.5 C58,198.5 34,190.5 34,208.5"/>
+<path class="flow" d="M34,56.5 C34,74.5 58,66.5 58,86.5 V178.5 C58,198.5 34,190.5 34,208.5" pathLength="100" style="animation-delay:0.5s"/>
+<path class="edge" d="M34,48.5 C34,66.5 82,58.5 82,78.5 V186.5 C82,206.5 34,198.5 34,216.5"/>
+<path class="flow" d="M34,48.5 C34,66.5 82,58.5 82,78.5 V186.5 C82,206.5 34,198.5 34,216.5" pathLength="100" style="animation-delay:0.7s"/>
+<path class="edge" d="M34,40.5 C34,58.5 106,50.5 106,70.5 V170.5"/>
+<path class="flow" d="M34,40.5 C34,58.5 106,50.5 106,70.5 V170.5" pathLength="100" style="animation-delay:0.9s"/>
+<path d="M101.5,176.0 l9,9 m0,-9 l-9,9" fill="none" stroke="#e34948" stroke-width="2" stroke-linecap="round"/>
+<circle class="agent" cx="58" cy="128.5" r="4.5" style="animation-delay:1.2s"/>
+<circle class="agent" cx="82" cy="128.5" r="4.5" style="animation-delay:1.4s"/>
+<circle class="agent" cx="106" cy="128.5" r="4.5" style="animation-delay:1.6s"/>
+<path class="flow" d="M34,24.5 V572.5" pathLength="100"/>
+<circle class="halo" cx="34" cy="24.5" r="11" style="animation-delay:0.16s"/>
+<circle cx="34" cy="24.5" r="11" fill="#1f2328"/>
+<text x="34" y="28.7" class="wn" text-anchor="middle">1</text>
+<text x="819" y="29" class="wg">ProofLab</text>
+<rect x="805" y="20" width="9" height="9" rx="2.5" fill="#008300"/>
+<text x="716" y="29" class="wg">SPECTRUM</text>
+<rect x="702" y="20" width="9" height="9" rx="2.5" fill="#e87ba4"/>
+<text x="138" y="30" class="wt">Spec and contracts first</text>
+<text x="138" y="52" class="wd">Specs and plans come first; one set of pydantic models defines each record type for Python and TypeScript.</text>
+<rect x="138.5" y="64.5" width="156" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="216.5" y="79.5" class="wc" text-anchor="middle">written specs and plans</text>
+<rect x="300.5" y="64.5" width="315" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="458.0" y="79.5" class="wc" text-anchor="middle">pydantic v2 → JSON Schema → TypeScript types</text>
+<rect x="621.5" y="64.5" width="140" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="691.5" y="79.5" class="wc" text-anchor="middle">JSON data contracts</text>
+<circle class="halo" cx="34" cy="128.5" r="11" style="animation-delay:1.45s"/>
+<circle cx="34" cy="128.5" r="11" fill="#1f2328"/>
+<text x="34" y="132.7" class="wn" text-anchor="middle">2</text>
+<text x="819" y="133" class="wg">ProofLab</text>
+<rect x="805" y="124" width="9" height="9" rx="2.5" fill="#008300"/>
+<text x="716" y="133" class="wg">SPECTRUM</text>
+<rect x="702" y="124" width="9" height="9" rx="2.5" fill="#e87ba4"/>
+<text x="138" y="134" class="wt">Parallel AI coding-agent workstreams</text>
+<text x="138" y="156" class="wd">Parallel Claude Code sessions, each owning its paths; on SPECTRUM a script fails any diff outside them.</text>
+<rect x="138.5" y="168.5" width="91" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="184.0" y="183.5" class="wc" text-anchor="middle">git worktrees</text>
+<rect x="235.5" y="168.5" width="131" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="301.0" y="183.5" class="wc" text-anchor="middle">per-path ownership</text>
+<rect x="372.5" y="168.5" width="188" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="466.5" y="183.5" class="wc" text-anchor="middle">versioned hand-off packages</text>
+<rect x="566.5" y="168.5" width="117" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="625.0" y="183.5" class="wc" text-anchor="middle">shared status file</text>
+<circle class="halo" cx="34" cy="232.5" r="11" style="animation-delay:2.74s"/>
+<path d="M34,218.5 l14,14 l-14,14 l-14,-14 Z" fill="#1f2328"/>
+<text x="34" y="236.7" class="wn" text-anchor="middle">3</text>
+<text x="823" y="237" class="wg">Cogmoz</text>
+<rect x="809" y="228" width="9" height="9" rx="2.5" fill="#eda100"/>
+<text x="720" y="237" class="wg">SPECTRUM</text>
+<rect x="706" y="228" width="9" height="9" rx="2.5" fill="#e87ba4"/>
+<text x="138" y="238" class="wt">Fail-closed merge gate</text>
+<text x="138" y="260" class="wd">On SPECTRUM a branch merges only if every check passes; Cogmoz runs them in CI on every push to main.</text>
+<rect x="138.5" y="272.5" width="80" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="178.5" y="287.5" class="wc" text-anchor="middle">type-check</text>
+<rect x="224.5" y="272.5" width="32" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="240.5" y="287.5" class="wc" text-anchor="middle">lint</text>
+<rect x="262.5" y="272.5" width="43" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="284.0" y="287.5" class="wc" text-anchor="middle">build</text>
+<rect x="311.5" y="272.5" width="69" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="346.0" y="287.5" class="wc" text-anchor="middle">unit tests</text>
+<rect x="386.5" y="272.5" width="145" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="459.0" y="287.5" class="wc" text-anchor="middle">seeded property tests</text>
+<rect x="138.5" y="300.5" width="208" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="242.5" y="315.5" class="wc" text-anchor="middle">Python/JS canonical-hash parity</text>
+<rect x="352.5" y="300.5" width="147" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="426.0" y="315.5" class="wc" text-anchor="middle">headless route smoke</text>
+<rect x="505.5" y="300.5" width="141" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="576.0" y="315.5" class="wc" text-anchor="middle">pre-push secret scan</text>
+<circle class="halo" cx="34" cy="364.5" r="11" style="animation-delay:4.38s"/>
+<circle cx="34" cy="364.5" r="11" fill="#1f2328"/>
+<text x="34" y="368.7" class="wn" text-anchor="middle">4</text>
+<text x="818" y="369" class="wg">CORTEX</text>
+<rect x="804" y="360" width="9" height="9" rx="2.5" fill="#2a78d6"/>
+<text x="138" y="370" class="wt">Pre-registered evaluation</text>
+<text x="138" y="392" class="wd">Pass bars are written down before the run, and the final test set stays sealed.</text>
+<rect x="138.5" y="404.5" width="135" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="206.0" y="419.5" class="wc" text-anchor="middle">sealed held-out split</text>
+<rect x="279.5" y="404.5" width="207" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="383.0" y="419.5" class="wc" text-anchor="middle">majority-of-3 per-fact LLM judge</text>
+<rect x="492.5" y="404.5" width="81" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="533.0" y="419.5" class="wc" text-anchor="middle">judge audit</text>
+<rect x="579.5" y="404.5" width="168" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="663.5" y="419.5" class="wc" text-anchor="middle">paired-bootstrap 95% CIs</text>
+<rect x="753.5" y="404.5" width="104" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="805.5" y="419.5" class="wc" text-anchor="middle">nulls published</text>
+<circle class="halo" cx="34" cy="468.5" r="11" style="animation-delay:5.67s"/>
+<circle cx="34" cy="468.5" r="11" fill="#1f2328"/>
+<text x="34" y="472.7" class="wn" text-anchor="middle">5</text>
+<text x="819" y="473" class="wg">ProofLab</text>
+<rect x="805" y="464" width="9" height="9" rx="2.5" fill="#008300"/>
+<text x="716" y="473" class="wg">SPECTRUM</text>
+<rect x="702" y="464" width="9" height="9" rx="2.5" fill="#e87ba4"/>
+<text x="138" y="474" class="wt">Verifiable evidence</text>
+<text x="138" y="496" class="wd">Targets are declared before the runs and every evidence file is hashed, so a judge can re-check it.</text>
+<rect x="138.5" y="508.5" width="175" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="226.0" y="523.5" class="wc" text-anchor="middle">declare-before-run records</text>
+<rect x="319.5" y="508.5" width="185" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="412.0" y="523.5" class="wc" text-anchor="middle">signed, hash-chained ledger</text>
+<rect x="510.5" y="508.5" width="288" height="22" rx="11" fill="#1f2328" fill-opacity="0.025" stroke="#1f2328" stroke-opacity="0.16"/>
+<text x="654.5" y="523.5" class="wc" text-anchor="middle">evidence pack sealed by a SHA-256 manifest</text>
+<circle class="halo" cx="34" cy="572.5" r="11" style="animation-delay:6.96s"/>
+<circle cx="34" cy="572.5" r="11" fill="#1f2328"/>
+<text x="34" y="576.7" class="wn" text-anchor="middle">6</text>
+<text x="818" y="577" class="wg">CORTEX</text>
+<rect x="804" y="568" width="9" height="9" rx="2.5" fill="#2a78d6"/>
+<text x="138" y="578" class="wt">Decisions from the data</text>
+<text x="138" y="600" class="wd">A feature that only ties a strong baseline ships opt-in, and the findings feed the next spec.</text>
+</svg>

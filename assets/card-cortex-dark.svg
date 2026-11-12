@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 352" width="432" height="352" role="img" aria-labelledby="t d">
+<title id="t">CORTEX</title>
+<desc id="d">Solo project · open source. Long-term memory for Claude Code. Every new chat starts with no memory of earlier ones, and compaction drops detail. CORTEX archives each chat, records decisions with their reasons, and lets the agent search that history through its own MCP tools. 300 sealed questions, one run: a tie with grep; 48/90 dropped details restored on a dev set; ~94x smaller archive than raw chats, one dataset. Stack: Python, SQLite FTS5, BM25, MCP, RAG, LLM evals.</desc>
+<style>.ck{font:600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}.ct{font:700 26px Georgia,'Times New Roman',Times,serif;fill:#f0f6fc;}.cs{font:600 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;}.cd{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}.mv{font:700 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f0f6fc;}.ml{font:400 12.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}.sp{font:400 11.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#9198a1;}</style>
+<rect x=".5" y=".5" width="431" height="345" rx="10" fill="#f0f6fc" fill-opacity="0.035" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<g transform="translate(334,24)"><rect x="0" y="0" width="4" height="4" rx="1" fill="#9198a1" fill-opacity=".45"/><rect x="9" y="0" width="58" height="4" rx="2" fill="#9198a1" fill-opacity=".32"/><rect x="0" y="9" width="4" height="4" rx="1" fill="#9198a1" fill-opacity=".45"/><rect x="9" y="9" width="42" height="4" rx="2" fill="#9198a1" fill-opacity=".32"/><rect x="0" y="18" width="4" height="4" rx="1" fill="#9198a1" fill-opacity=".45"/><rect x="9" y="18" width="66" height="4" rx="2" fill="#3987e5"/><rect x="0" y="27" width="4" height="4" rx="1" fill="#9198a1" fill-opacity=".45"/><rect x="9" y="27" width="36" height="4" rx="2" fill="#9198a1" fill-opacity=".32"/><rect x="0" y="36" width="4" height="4" rx="1" fill="#9198a1" fill-opacity=".45"/><rect x="9" y="36" width="60" height="4" rx="2" fill="#3987e5"/><rect x="0" y="45" width="4" height="4" rx="1" fill="#9198a1" fill-opacity=".45"/><rect x="9" y="45" width="48" height="4" rx="2" fill="#9198a1" fill-opacity=".32"/></g>
+<rect x="22" y="25" width="9" height="9" rx="2.5" fill="#3987e5"/>
+<text x="37" y="34" class="ck">Solo project · open source</text>
+<text x="21" y="72" class="ct">CORTEX</text>
+<text x="22" y="96" class="cs">Long-term memory for Claude Code</text>
+<text x="22" y="123" class="cd">Every new chat starts with no memory of earlier ones,</text>
+<text x="22" y="141" class="cd">and compaction drops detail. CORTEX archives each chat,</text>
+<text x="22" y="159" class="cd">records decisions with their reasons, and lets the agent</text>
+<text x="22" y="177" class="cd">search that history through its own MCP tools.</text>
+<path d="M22,194.5 H410" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<rect x="22" y="208" width="66" height="21" rx="10.5" fill="#3987e5" fill-opacity="0.24" stroke="#3987e5" stroke-opacity=".55"/>
+<text x="55.0" y="223" class="mv" text-anchor="middle">300</text>
+<text x="98" y="223" class="ml">sealed questions, one run: a tie with grep</text>
+<rect x="22" y="235" width="66" height="21" rx="10.5" fill="#3987e5" fill-opacity="0.24" stroke="#3987e5" stroke-opacity=".55"/>
+<text x="55.0" y="250" class="mv" text-anchor="middle">48/90</text>
+<text x="98" y="250" class="ml">dropped details restored on a dev set</text>
+<rect x="22" y="262" width="66" height="21" rx="10.5" fill="#3987e5" fill-opacity="0.24" stroke="#3987e5" stroke-opacity=".55"/>
+<text x="55.0" y="277" class="mv" text-anchor="middle">~94x</text>
+<text x="98" y="277" class="ml">smaller archive than raw chats, one dataset</text>
+<path d="M22,293.5 H410" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<rect x="22.5" y="305.5" width="55" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="50.0" y="320" class="sp" text-anchor="middle">Python</text>
+<rect x="83.5" y="305.5" width="90" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="128.5" y="320" class="sp" text-anchor="middle">SQLite FTS5</text>
+<rect x="179.5" y="305.5" width="48" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="203.5" y="320" class="sp" text-anchor="middle">BM25</text>
+<rect x="233.5" y="305.5" width="43" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="255.0" y="320" class="sp" text-anchor="middle">MCP</text>
+<rect x="282.5" y="305.5" width="43" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="304.0" y="320" class="sp" text-anchor="middle">RAG</text>
+<rect x="331.5" y="305.5" width="74" height="21" rx="5" fill="none" stroke="#f0f6fc" stroke-opacity="0.20"/>
+<text x="368.5" y="320" class="sp" text-anchor="middle">LLM evals</text>
+</svg>
